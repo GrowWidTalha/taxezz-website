@@ -4,30 +4,30 @@ import { TextAnimate } from "../magicui/text-animate";
 const bentoItems = [
     {
         bg: "bg-green-100",
-        title: "Strategic Planning",
+        title: "Keep Every Possible Investor Deduction",
         description:
-            "Comprehensive tax strategy development aligned with your investment goals and market opportunities.",
+            "We forensically comb through your books to uncover every possible tax deduction - from granular property depreciation schedules to advanced Section 1031 exchange strategies. <br /> <br /> That means you get to pocket more of the cash flow from your hard-earned investment properties.",
     },
     {
         bg: "bg-orange-100",
-        title: "Compliance Assurance",
+        title: "Wave Goodbye to Tax Season Headaches",
         description:
-            "Maintain perfect compliance across jurisdictions while maximizing allowable deductions and credits.",
+            "Filing season is a breeze when you have our team of real estate CPAs handling all the complex reporting and filings. No more frantic last-minute scrambles or worrying about IRS audits - just send over your documents and enjoy the off-season.",
     },
 ];
 
 const bentoItems2 = [
     {
         bg: "bg-purple-100",
-        title: "Transaction Advisory",
+        title: "Stay One Step Ahead of Ever-Changing Tax Laws",
         description:
-            "Expert guidance on deal structuring, 1031 exchanges, and tax-efficient acquisition/disposition strategies.",
+            "With tax regulations in constant flux, it takes a dedicated real estate tax expert to keep you compliant and maximize your savings. Our advisors provide year-round strategic guidance, ensuring you capitalize on the latest deductions, credits, and wealth-building opportunities (think Opportunity Zones, loss carrybacks, and more).",
     },
     {
         bg: "bg-teal-100",
-        title: "Tax Optimization",
+        title: "The Customized Wealth-Building Roadmap",
         description:
-            "Ongoing monitoring and adjustment of tax positions to maximize after-tax returns across your portfolio.",
+            "We build a comprehensive financial plan tailored to your unique goals, whether that's scaling your rental portfolio, perfecting your ground-up development model, or protecting the equity in your commercial real estate assets. <br /> <br /> Know exactly where your money is going and how to optimize every dollar for maximum returns.",
     },
 ]
 
@@ -40,11 +40,11 @@ export default function BentoGridSection() {
                         Strategic Planning
                     </h2>
                     <TextAnimate className="text-4xl md:text-5xl font-semibold text-gray-900" delay={0.5} animation="slideUp" by="character">
-                        It&apos;s the little things that make your team great
+                        Why Real Estate Investors Choose Us
                     </TextAnimate>
-                    <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-                        Trullion makes accountants’ day-to-day tasks faster, smoother, and more accurate. Fire up the platform, check your dashboard, and get to work with total confidence.
-                    </p>
+                    <TextAnimate className="text-4xl md:text-5xl font-semibold text-gray-900" delay={0.5} animation="slideUp" by="character">
+                        And What They Walk Away With
+                    </TextAnimate>
                 </div>
 
                 {/* Bento-style grid: left column is twice as wide as right */}
@@ -57,9 +57,7 @@ export default function BentoGridSection() {
                                 <h3 className=" font-semibold text-gray-900 text-3xl mb-2">
                                     {item.title}
                                 </h3>
-                                <p className="text-gray-700 text-lg">
-                                    {item.description}
-                                </p>
+                                <p dangerouslySetInnerHTML={{ __html: item.description }} className="text-gray-700 text-lg" />
                             </CardContent>
                         </Card>
                     ))}
@@ -73,9 +71,8 @@ export default function BentoGridSection() {
                                 <h3 className="text-3xl font-semibold text-gray-900 mb-2">
                                     {item.title}
                                 </h3>
-                                <p className="text-gray-700 text-lg">
-                                    {item.description}
-                                </p>
+                                <p dangerouslySetInnerHTML={{ __html: item.description }} className="text-gray-700 text-lg" />
+
                             </CardContent>
                         </Card>
                     ))}

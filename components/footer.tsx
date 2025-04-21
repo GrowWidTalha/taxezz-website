@@ -15,7 +15,7 @@ const Footer = () => {
                     <div className="space-y-6">
                         <div className="flex items-center space-x-2">
                             <div className="w-6 h-8 bg-black"></div>
-                            <span className="font-bold text-xl">TRULLION</span>
+                            <span className="font-bold text-xl">Taxezz</span>
                         </div>
                     </div>
 
@@ -97,7 +97,7 @@ const Footer = () => {
                         <a href="#" className="hover:underline">Terms of Service</a>
                         <a href="#" className="hover:underline">Cookie Policy</a>
                     </div>
-                    <div>© 2025 Trullion Inc.</div>
+                    <div>© 2025 Taxezz Inc.</div>
                 </div>
             </div>
         </footer>

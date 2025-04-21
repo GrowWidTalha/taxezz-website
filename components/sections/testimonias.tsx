@@ -25,7 +25,7 @@ const testimonials: Testimonial[] = [
     {
         id: 1,
         logo: "/hmd_tagline-logo.svg",
-        content: "We chose to migrate from our previous software to Trullion in order to improve efficiency. With Trullion, we've reduced our time spent on reporting by over 25% and saved over 30% on costs between the two softwares.",
+        content: "We chose to migrate from our previous software to Taxezz in order to improve efficiency. With Taxezz, we've reduced our time spent on reporting by over 25% and saved over 30% on costs between the two softwares.",
         author: "Morgan Hoffmann",
         position: "Group Financial Accountant",
         company: "Bradken",
@@ -33,7 +33,7 @@ const testimonials: Testimonial[] = [
     {
         id: 2,
         logo: "/hmd_tagline-logo.svg",
-        content: "When demoing Trullion, we were impressed with the functionality and the look and feel of the product. It became very apparent that without Trullion, we would be spending more time on manual calculations and reporting.",
+        content: "When demoing Taxezz, we were impressed with the functionality and the look and feel of the product. It became very apparent that without Taxezz, we would be spending more time on manual calculations and reporting.",
         author: "Ville Räsänen",
         position: "Senior Finance Manager",
         company: "HMD Global",
@@ -41,7 +41,7 @@ const testimonials: Testimonial[] = [
     {
         id: 3,
         logo: "/hmd_tagline-logo.svg",
-        content: "Implementing Trullion has transformed our accounting workflow. The automated features have given our team back valuable time to focus on strategic initiatives rather than manual data entry.",
+        content: "Implementing Taxezz has transformed our accounting workflow. The automated features have given our team back valuable time to focus on strategic initiatives rather than manual data entry.",
         author: "Sarah Johnson",
         position: "Chief Financial Officer",
         company: "TechGrowth",
@@ -49,10 +49,42 @@ const testimonials: Testimonial[] = [
     {
         id: 4,
         logo: "/hmd_tagline-logo.svg",
-        content: "The transition to Trullion was seamless. Their support team guided us through every step, and now our financial reporting is not only faster but more accurate than ever before.",
+        content: "The transition to Taxezz was seamless. Their support team guided us through every step, and now our financial reporting is not only faster but more accurate than ever before.",
         author: "Michael Chen",
         position: "Director of Finance",
         company: "GlobalEdge",
+    },
+    {
+        id: 5,
+        logo: "/hmd_tagline-logo.svg",
+        content: "Taxezz has been a game-changer for my real estate investment business. Their proactive tax planning and strategic entity structuring have saved me tens of thousands in taxes over the past year. I can't imagine going back to my old accounting firm.",
+        author: "Sarah Patel",
+        position: "Residential Portfolio Investor",
+        company: "",
+    },
+    {
+        id: 6,
+        logo: "/hmd_tagline-logo.svg",
+        content: "As my real estate development firm has grown, the tax complexities have become a major headache. Working with Taxezz has been a total relief - their experts navigate all the compliance requirements and ensure we're maximizing every deduction. It's given me and my team peace of mind.",
+        author: "John Wu",
+        position: "Real Estate Developer",
+        company: "",
+    },
+    {
+        id: 7,
+        logo: "/hmd_tagline-logo.svg",
+        content: "I was wary of switching accounting providers for my commercial properties, but Taxezz has exceeded all my expectations. Their sophisticated tax strategies have protected my long-term equity, and the platform makes managing multi-state compliance a breeze. Highly recommend them to any commercial real estate owner.",
+        author: "Maria Gonzalez",
+        position: "Commercial Property Owner",
+        company: "",
+    },
+    {
+        id: 8,
+        logo: "/hmd_tagline-logo.svg",
+        content: "Taxezz's platform is a game-changer for our real estate syndicate. The AI-powered insights and tailored tax planning recommendations have been invaluable. We're able to make smarter investment decisions and keep the IRS at a safe distance - which is critical for our investors.",
+        author: "David Lee",
+        position: "Real Estate Syndicate Manager",
+        company: "",
     },
 ];
 
