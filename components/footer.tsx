@@ -1,12 +1,10 @@
 "use client";
 
 import React from "react";
-import { useIsMobile } from "@/hooks/use-mobile";
 import { Separator } from "@/components/ui/separator";
 import { Twitter, Youtube, Linkedin } from "lucide-react";
 
 const Footer = () => {
-    const isMobile = useIsMobile();
 
     return (
         <footer className="w-full bg-white text-gray-700">

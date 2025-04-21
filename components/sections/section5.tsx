@@ -1,5 +1,4 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
 import { Gamepad, Square, Monitor, AlertTriangle, BarChart2, ChartArea as PresentationChart } from "lucide-react";
 
 const features = [

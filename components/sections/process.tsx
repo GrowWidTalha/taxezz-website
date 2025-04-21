@@ -1,5 +1,4 @@
 import React from 'react'
-import WorkflowDashboard from '../workflow-dashboard'
 import DataCapabilitiesSection from '../ourProcess'
 
 const Process = () => {

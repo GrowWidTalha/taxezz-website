@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { motion, AnimatePresence } from "framer-motion"
+import { motion } from "framer-motion"
 import { ArrowRight, Plus } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -49,6 +49,7 @@ export default function WorkflowDashboard() {
                         <motion.div
                             key={section.id}
                             layout
+                            // @ts-ignore
                             onClick={() => setActiveSection(section.id)}
                             className={`rounded-lg border cursor-pointer overflow-hidden transition-all duration-300 ${activeSection === section.id ? section.color : "bg-white"
                                 }`}

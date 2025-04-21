@@ -1,9 +1,7 @@
 
 "use client"
-import React, { useState, useEffect } from "react";
-import { ArrowLeft, ArrowRight } from "lucide-react";
+import React from "react";
 import { useIsMobile } from "@/hooks/use-mobile";
-import { cn } from "@/lib/utils";
 import {
     Carousel,
     CarouselContent,

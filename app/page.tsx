@@ -6,7 +6,6 @@ import GenAIAccountingSection from "@/components/sections/section4";
 import ModernAccountingWorkflows from "@/components/sections/section5";
 import BentoGridSection from "@/components/sections/section6";
 import TestimonialCarousel from "@/components/sections/testimonias";
-import Image from "next/image";
 
 export default function Home() {
     return (
@@ -20,7 +19,7 @@ export default function Home() {
             <BrandLogos />
             <TestimonialCarousel />
             <CTASection />
-            
+
         </main>
     );
 }
