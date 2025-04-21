@@ -37,11 +37,11 @@ const Navbar = () => {
 
                 {/* Action Buttons */}
                 <div className="hidden md:flex gap-4">
-                    <Button variant="outline" className="ring-1 text-lg ring-black px-6 ">
-                        Login
-                    </Button>
+                    {/* <Button variant="outline" className="ring-1 text-lg ring-black px-6 ">
+                        Contact Us
+                    </Button> */}
                     <Button className="bg-black px-4 text-white text-lg">
-                        Book a demo
+                        Book a Call
                     </Button>
                 </div>
 
@@ -64,11 +64,8 @@ const Navbar = () => {
                                 Contact Us
                             </Link>
                             <div className="mt-6 flex flex-col gap-3">
-                                <Button variant="outline" className="w-full">
-                                    Login
-                                </Button>
                                 <Button className="bg-black text-white w-full">
-                                    Book a demo
+                                    Book a Call
                                 </Button>
                             </div>
                         </SheetContent>

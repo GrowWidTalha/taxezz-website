@@ -1,30 +1,30 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Gamepad, Square, Monitor, AlertTriangle, BarChart2, ChartArea as PresentationChart } from "lucide-react";
+import { Briefcase, Building2, Globe, Activity, RefreshCcw, UserCheck } from "lucide-react";
 
 const features = [
     {
-        icon: Gamepad,
-        title: "Start with little to no configuration.",
+        icon: Briefcase, // Replace with appropriate icon
+        title: "Proactive tax planning from day one",
     },
     {
-        icon: Square,
-        title: "Connect all of your financial and accounting systems.",
+        icon: Building2, // Replace with appropriate icon
+        title: "Strategic entity structuring for optimal tax efficiency",
     },
     {
-        icon: Monitor,
-        title: "Instantly extract data from contracts and systems.",
+        icon: Globe, // Replace with appropriate icon
+        title: "Seamless multi-state compliance management",
     },
     {
-        icon: BarChart2,
-        title: "See what’s most relevant to you at a glance.",
+        icon: Activity, // Replace with appropriate icon
+        title: "Real-time tax position monitoring",
     },
     {
-        icon: AlertTriangle,
-        title: "Get automated alerts when something needs attention.",
+        icon: RefreshCcw, // Replace with appropriate icon
+        title: "Quarterly strategy reviews and adjustments",
     },
     {
-        icon: PresentationChart,
-        title: "Report instantly to finance leadership and auditors.",
+        icon: UserCheck, // Replace with appropriate icon
+        title: "Direct access to senior tax professionals",
     },
 ];
 
@@ -32,12 +32,14 @@ export default function ModernAccountingWorkflows() {
     return (
         <section className="px-4 md:px-12 py-12 bg-muted">
             <div className="max-w-7xl mx-auto text-center space-y-6 flex flex-col items-center">
-                <h2 className="decorated-all-corners max-w-fit  text-2xl bg-teal-200">Modern Accounting Workflows</h2>
+                <h2 className='bg-teal-100 decorated-all-corners inline-block px-4 py-1 text-xl font-semibold'>
+                    Modern Accounting Workflows</h2>
                 <h2 className="text-4xl md:text-5xl font-semibold text-gray-900">
-                    It&apos;s the little things that make your team great
+                    It's the expertise that
+                    makes your investments thrive
                 </h2>
                 <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-                    Trullion makes accountants’ day-to-day tasks faster, smoother, and more accurate. Fire up the platform, check your dashboard, and get to work with total confidence.
+                    Our tax professionals deliver
                 </p>
             </div>
 

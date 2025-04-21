@@ -11,9 +11,7 @@ const CTASection = () => {
                     {/* Left side with text and CTA */}
                     <div className="bg-[#0a4d56] text-white p-8 md:p-16 flex flex-col justify-center rounded-2xl flex-[3]">
                         <h2 className="text-3xl md:text-5xl lg:text-6xl font-serif leading-tight mb-8 md:mb-10">
-                            It just works,
-                            <br />
-                            so that you can too.
+                            Transform your real estate tax strategy.
                         </h2>
                         <div>
                             <Button

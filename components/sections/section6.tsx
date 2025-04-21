@@ -3,30 +3,30 @@ import { Card, CardContent } from "@/components/ui/card";
 const bentoItems = [
     {
         bg: "bg-green-100",
-        title: "Flawless financial oversight",
+        title: "Strategic Planning",
         description:
-            "Enjoy 100% confidence in your numbers, know exactly what your team is working on, and protect your company from unplanned risk.",
+            "Comprehensive tax strategy development aligned with your investment goals and market opportunities.",
     },
     {
         bg: "bg-orange-100",
-        title: "Accurate, compliant reporting workflows",
+        title: "Compliance Assurance",
         description:
-            "Use modern reporting methods for Rev Rec, Lease Accounting & more while meeting the global compliance requirements automatically.",
+            "Maintain perfect compliance across jurisdictions while maximizing allowable deductions and credits.",
     },
 ];
 
 const bentoItems2 = [
     {
         bg: "bg-purple-100",
-        title: "Smarter reporting and analytics",
+        title: "Transaction Advisory",
         description:
-            "Enable the best business outcomes with automated, configurable reporting and unique insights into your financial data.",
+            "Expert guidance on deal structuring, 1031 exchanges, and tax-efficient acquisition/disposition strategies.",
     },
     {
         bg: "bg-teal-100",
-        title: "Level up reporting",
+        title: "Tax Optimization",
         description:
-            "Eliminate repetitive tasks and human error with automated data workflows, AI-enabled verification, and anomaly detection for a streamlined close.",
+            "Ongoing monitoring and adjustment of tax positions to maximize after-tax returns across your portfolio.",
     },
 ]
 
@@ -35,7 +35,9 @@ export default function BentoGridSection() {
         <section className="px-4 md:px-12 py-12 bg-white">
             <div className="max-w-7xl mx-auto">
                 <div className="max-w-7xl mx-auto text-center space-y-6 flex flex-col items-center">
-                    <h2 className="decorated-all-corners max-w-fit  text-2xl bg-teal-200">Modern Accounting Workflows</h2>
+                    <h2 className='bg-teal-100 decorated-all-corners inline-block px-4 py-1 text-xl font-semibold'>
+                        Strategic Planning
+                    </h2>
                     <h2 className="text-4xl md:text-5xl font-semibold text-gray-900">
                         It&apos;s the little things that make your team great
                     </h2>
