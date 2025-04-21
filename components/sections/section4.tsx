@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { TextAnimate } from "../magicui/text-animate";
 
 export default function GenAIAccountingSection() {
     return (
@@ -6,9 +7,12 @@ export default function GenAIAccountingSection() {
             <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
                 {/* Left Side: Text Content */}
                 <div>
-                    <h2 className="text-3xl md:text-4xl font-semibold text-gray-900 mb-4">
-                        Transforming how <br />accounting is done
-                    </h2>
+                    <TextAnimate className='text-3xl md:text-4xl font-semibold text-gray-900 mb-4' delay={0.5} animation="slideUp" by="character">
+                        Transforming how
+                    </TextAnimate>
+                    <TextAnimate className='text-3xl md:text-4xl font-semibold text-gray-900 mb-4' delay={0.5} animation="slideUp" by="character">
+                        accounting is done
+                    </TextAnimate>
                     <p className="text-gray-600 mb-6 ">
                         Trullion’s platform uniquely uses GenAI for strategic accounting decisions like:
                     </p>

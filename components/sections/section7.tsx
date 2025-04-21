@@ -1,11 +1,13 @@
 import React from 'react';
+import { TextAnimate } from '../magicui/text-animate';
 
 const RealEstateTaxHero = () => {
     return (
         <section className="w-full px-4 py-16 text-center bg-white">
-            <h1 className="text-4xl md:text-5xl font-serif font-semibold text-gray-900 mb-4">
+            <TextAnimate className="text-4xl md:text-5xl font-serif font-semibold text-gray-900 mb-4" delay={0.5} animation="slideUp" by="character">
+
                 Tax expertise for your unique real estate needs
-            </h1>
+            </TextAnimate>
             <p className="max-w-3xl mx-auto text-lg text-gray-600 mb-10">
                 Whether you're scaling a residential portfolio, developing new properties,
                 or managing commercial investments, our specialized tax solutions drive success:

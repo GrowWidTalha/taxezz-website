@@ -1,5 +1,6 @@
 import React from 'react'
 import DataCapabilitiesSection from '../ourProcess'
+import { TextAnimate } from '../magicui/text-animate'
 
 const Process = () => {
     return (
@@ -8,10 +9,10 @@ const Process = () => {
                 <h2 className='bg-teal-100 decorated-all-corners inline-block px-4 py-1 text-xl font-semibold'>
                     The Tax Strategy Platform
                 </h2>
-                <h1 className='text-3xl  sm:text-4xl font-bold'>
-                    Maximizing returns today, <br />
+                <TextAnimate className='text-3xl sm:text-4xl font-bold' delay={0.5} animation="slideUp" by="character">
+                    Maximizing returns today,
                     securing wealth for tomorrow
-                </h1>
+                </TextAnimate>
                 <p className="text-base sm:text-lg max-w-4xl">
                     Our comprehensive tax services are designed exclusively for real estate professionals, offering strategic planning, compliance assurance, and wealth preservation solutions. From portfolio optimization to development project structuring, we deliver expertise that drives real estate success.
 

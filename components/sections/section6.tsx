@@ -1,4 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
+import { TextAnimate } from "../magicui/text-animate";
 
 const bentoItems = [
     {
@@ -38,9 +39,9 @@ export default function BentoGridSection() {
                     <h2 className='bg-teal-100 decorated-all-corners inline-block px-4 py-1 text-xl font-semibold'>
                         Strategic Planning
                     </h2>
-                    <h2 className="text-4xl md:text-5xl font-semibold text-gray-900">
+                    <TextAnimate className="text-4xl md:text-5xl font-semibold text-gray-900" delay={0.5} animation="slideUp" by="character">
                         It&apos;s the little things that make your team great
-                    </h2>
+                    </TextAnimate>
                     <p className="text-lg text-gray-700 max-w-2xl mx-auto">
                         Trullion makes accountants’ day-to-day tasks faster, smoother, and more accurate. Fire up the platform, check your dashboard, and get to work with total confidence.
                     </p>

@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Briefcase, Building2, Globe, Activity, RefreshCcw, UserCheck } from "lucide-react";
+import { TextAnimate } from "../magicui/text-animate";
 
 const features = [
     {
@@ -34,10 +35,12 @@ export default function ModernAccountingWorkflows() {
             <div className="max-w-7xl mx-auto text-center space-y-6 flex flex-col items-center">
                 <h2 className='bg-teal-100 decorated-all-corners inline-block px-4 py-1 text-xl font-semibold'>
                     Modern Accounting Workflows</h2>
-                <h2 className="text-4xl md:text-5xl font-semibold text-gray-900">
+                <TextAnimate className="text-4xl md:text-5xl font-semibold text-gray-900" delay={0.5} animation="slideUp" by="character">
                     It's the expertise that
+                </TextAnimate>
+                <TextAnimate className="text-4xl md:text-5xl font-semibold text-gray-900" delay={0.5} animation="slideUp" by="character">
                     makes your investments thrive
-                </h2>
+                </TextAnimate>
                 <p className="text-lg text-gray-700 max-w-2xl mx-auto">
                     Our tax professionals deliver
                 </p>
