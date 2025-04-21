@@ -17,7 +17,7 @@ const CTASection = () => {
                         </h2>
                         <div>
                             <Button
-                                className="bg-[#a3f2da] hover:bg-[#8ee6cb] text-emerald-900 font-medium px-6 py-6 h-auto text-base"
+                                className="bg-[#a3f2da] hover:bg-[#8ee6cb] text-emerald-900 font-medium px-6 py-4 h-auto text-base"
                                 onClick={() => window.open('https://example.com/book-demo', '_blank')}
                             >
                                 Book a demo <ArrowRight className="ml-2" />

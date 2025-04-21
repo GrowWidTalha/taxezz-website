@@ -32,8 +32,8 @@ const features = [
 export default function ModernAccountingWorkflows() {
     return (
         <section className="px-4 md:px-12 py-12 bg-muted">
-            <div className="max-w-7xl mx-auto text-center space-y-6">
-                <Badge className="bg-teal-100 text-teal-800">Modern Accounting Workflows</Badge>
+            <div className="max-w-7xl mx-auto text-center space-y-6 flex flex-col items-center">
+                <h2 className="decorated-all-corners max-w-fit  text-2xl bg-teal-200">Modern Accounting Workflows</h2>
                 <h2 className="text-4xl md:text-5xl font-semibold text-gray-900">
                     It&apos;s the little things that make your team great
                 </h2>

@@ -26,7 +26,7 @@ type Testimonial = {
 const testimonials: Testimonial[] = [
     {
         id: 1,
-        logo: "/lovable-uploads/4a23deb2-db51-4842-80b8-1633f7c389fd.png",
+        logo: "/hmd_tagline-logo.svg",
         content: "We chose to migrate from our previous software to Trullion in order to improve efficiency. With Trullion, we've reduced our time spent on reporting by over 25% and saved over 30% on costs between the two softwares.",
         author: "Morgan Hoffmann",
         position: "Group Financial Accountant",
@@ -34,7 +34,7 @@ const testimonials: Testimonial[] = [
     },
     {
         id: 2,
-        logo: "/lovable-uploads/4a23deb2-db51-4842-80b8-1633f7c389fd.png",
+        logo: "/hmd_tagline-logo.svg",
         content: "When demoing Trullion, we were impressed with the functionality and the look and feel of the product. It became very apparent that without Trullion, we would be spending more time on manual calculations and reporting.",
         author: "Ville Räsänen",
         position: "Senior Finance Manager",
@@ -42,7 +42,7 @@ const testimonials: Testimonial[] = [
     },
     {
         id: 3,
-        logo: "/lovable-uploads/4a23deb2-db51-4842-80b8-1633f7c389fd.png",
+        logo: "/hmd_tagline-logo.svg",
         content: "Implementing Trullion has transformed our accounting workflow. The automated features have given our team back valuable time to focus on strategic initiatives rather than manual data entry.",
         author: "Sarah Johnson",
         position: "Chief Financial Officer",
@@ -50,7 +50,7 @@ const testimonials: Testimonial[] = [
     },
     {
         id: 4,
-        logo: "/lovable-uploads/4a23deb2-db51-4842-80b8-1633f7c389fd.png",
+        logo: "/hmd_tagline-logo.svg",
         content: "The transition to Trullion was seamless. Their support team guided us through every step, and now our financial reporting is not only faster but more accurate than ever before.",
         author: "Michael Chen",
         position: "Director of Finance",
